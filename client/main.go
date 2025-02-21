@@ -46,7 +46,7 @@ func main() {
 
 	timeBegin := time.Now()
 	count := 0
-	for count < 1000 {
+	for count < 1200 {
 		count++
 		waitGroup.Add(1)
 		go run(fmt.Sprint(count), ctx, &waitGroup)
